@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="frame-src 'self' https://www.youtube.com;">
+    <link rel= "stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="script.js" defer></script>
+
+    <title>30's Pictures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to top, #DB4F42, #fff 80%);
+            margin-bottom: 500px;
+            
+            
+        }
+
+       
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .poster {
+            position: relative;
+            background: url("poster.jpg") no-repeat center center;
+            background-size: cover;
+            height: 783px;
+            text-align: center;
+            
+            
+        }
+
+        .poster h1 {
+            font-size: 3rem;
+            margin: 0px;
+            padding: 100px 0;
+        }
+        .main-video {
+            width: 100%;
+            height: 675px;
+            margin: 100px 0;
+            margin-top: 800px;
+}
+        .movies {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* 가운데 정렬 */
+        }
+
+        .movie {
+            flex: 0 0 30%;
+            margin: 10px;
+            position: relative;
+            cursor: pointer;
+            transition: transform 0.2s;
+            width: 100%;
+            height: auto;
+            text-align: center; /* 가운데 정렬을 위해 추가 */
+    }
+
+        .movie h3 {
+            margin-top: 10px;
+             /* 제목과 영상 사이의 간격을 조절할 수 있습니다. */
+    }
+
+        .movie img {
+            width: 100%;
+            height: auto;
+            
+        }
+
+        .movie:hover {
+            transform: scale(1.05);
+        }
+
+        section {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 80vh;
+            margin-top: 20px;
+            min-height: 200vh;
+        }
+
+        .h3 {
+            font-weight: bold;
+           
+        }
+
+
+
+
+        
+
+        .profile {
+            display: flex;
+            align-items: center;
+            max-width: 80%;
+            margin: 5em 0;
+        }
+
+        .profile img {
+            max-width: 50%;
+            border-radius: 0;
+        }
+
+        .description {
+            padding: 1em;
+            text-align: left;
+            margin-left: 30px;
+        }
+
+        .description p {
+            color: #000000;
+        }
+
+
+
+
+.footerbottom{  
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+    </style>
+</head>
+
+
+
+<body>
+   
+
+
+    <div class="container">
+        <div class="poster">
+        </div>
+
+        
+
+
+        <div class="main-video">
+            <iframe width="100%" height="675px" src="https://www.youtube.com/embed/BXzhkgfnav4" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="movies">
+	      <div class="movie">
+    	  <iframe width="100%" height="100%" src="" frameborder="0" allowfullscreen></iframe>
+		  <h3 style="text-align: center; color: #54071a; font-size: 25px;"></h3>
+	    </div>
+
+        <div class="movie">
+   	      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ltkdOpp_deE" frameborder="0" allowfullscreen></iframe>
+		  <h3 style="text-align: center; color: #54071a; font-size: 25px;">NG</h3>
+	    </div>
+
+        <div class="movie">
+    	  <iframe width="100%" height="100%" src="" frameborder="0" allowfullscreen></iframe>
+		  <h3 style="text-align: center; color: #54071a; font-size: 25px;"></h3>
+	    </div>
+         
+    </div>
+
+    <h1 style="text-align: center; margin-top: 800px; color: #54071a; font-size: 130px;">Character</h1>
+
+
+    <div class="pro">
+        <img src= "profile.jpg" width="100%">
+      </div>
+
+
+
+<h1 style="text-align: center; margin-top: 800px; margin-bottom: 150px; color: #54071a; font-size: 130px;">Still Cut</h1>
+
+<div class="wrapper">
+    <i id="left" class="fa-solid fa-angle-left"></i>
+    <div class="carousel">
+       <img src="30s1.jpg" alt="img">
+       <img src="30_s  002.jpg" alt="img">
+       <img src="30_s 003.jpg" alt="img">
+       <img src="30_s  004.jpg" alt="img">
+       <img src="30_s 005.jpg" alt="img">
+       <img src="30_s  007.jpg" alt="img">
+       <img src="30_s  008.jpg" alt="img">
+       <img src="30_s 009.jpg" alt="img">
+       <img src="30_s 011.jpg" alt="img">
+    </div>
+    <i id="right" class="fa-solid fa-angle-right"></i>
+</div>
+
+
+
+
+
+    </div>
+</body>
+</html>
