@@ -1,0 +1,70 @@
+@import url('http://fonts.googleapis.com/css2?family=poppins:wght@400;500;600&display=swap');
+
+
+
+.wrapper{
+    max-width: 1200px;
+    position: relative;
+}
+
+.wrapper i{
+top: 50%;
+height: 46px;
+width: 46px;
+cursor: pointer;
+position: absolute;
+font-size: 1.2rem;
+text-align: center;
+line-height: 46px;
+background: #fff;
+border-radius: 50%;
+transform: translateY(-50%);
+
+}
+
+.wrapper i:first-child{
+    left: -23px;
+    display: none;
+}
+
+.wrapper i:last-child{
+    right: -23px;
+
+}
+.wrapper .carousel {
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+.carousel.dragging{
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging img {
+    pointer-events: none;
+}
+
+.carousel img{
+    height: 300px;
+    margin-left: 14px;
+    object-fit: cover;
+    width: calc(100% /3);
+
+}
+.carousel img:first-child{
+    margin-left: 0pc;
+}
+
+@media screen and (max-width:900px) {
+    .carousel img {
+    width: calc(100% /2);
+    }
+}
+    @media screen and (max-width:550px) {
+        .carousel img {
+        width: 100px;
+        }
+    }
